@@ -1,0 +1,19 @@
+{
+  "name": "modelo-melhoria-node",
+  "version": "1.0.0",
+  "description": "Aplicação WEB para disciplina de Modelos de Melhoria de Processo de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiulyBarreto/modelo-melhoria-node.git"
+  },
+  "author": "Diuly Barreto, Felipe Flores, Guilherme Biegelmeyer, Tiago Chemevski, Vinicius Schonardie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiulyBarreto/modelo-melhoria-node/issues"
+  },
+  "homepage": "https://github.com/DiulyBarreto/modelo-melhoria-node#readme"
+}
