@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DiulyBarreto/modelo-melhoria-node/issues"
   },
-  "homepage": "https://github.com/DiulyBarreto/modelo-melhoria-node#readme"
+  "homepage": "https://github.com/DiulyBarreto/modelo-melhoria-node#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
