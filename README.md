@@ -7,7 +7,16 @@ Consiste em uma aplicação web que permite cadastrar e visualizar informações
 ## Tecnologias utilizadas
 
 - NodeJs
-- AngularJs
-- MongoDB (definir se será mongo mesmo, ou MySQL).
+- Express
+- EJS View Engine
+- MySQL.
 
-// TODO: adicionar itens conforme desenvolvimento
+## Rodando o projeto localmente
+
+Para rodar o projeto localmente, siga as instruções abaixo:
+
+- clonar o projeto
+- navegar até a pasta do projeto através do terminal
+- rodar o comando `npm install` para fazer o download das dependências
+- rodar o comando `node app.js` para subir o servidor
+- acessar a URL ```http://localhost:3000/modelo/cadastroModelo ```
