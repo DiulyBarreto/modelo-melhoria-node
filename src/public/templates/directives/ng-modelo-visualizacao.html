@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+	<div class="panel-heading">Modelos</div>
+	<div class="panel-body">
+		<p>Clique em um item para editá-lo.</p>
+	</div>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>SIGLA</td>
+				<td>NOME</td>
+				<td>DESCRIÇÃO</td>
+			</tr>
+		</thead>
+		<tbody>
+			<% for(var i = 0; i < modelos.length; i++) { %>
+				<tr>
+					<td>
+						<%= modelos[i].idModelo %>
+					</td>
+					<td>
+						<%= modelos[i].sigla %>
+					</td>
+					<td>
+						<%= modelos[i].nome %>
+					</td>
+					<td>
+						<%= modelos[i].descricao %>
+					</td>
+				</tr>
+				<% } %>
+		</tbody>
+	</table>
+</div>

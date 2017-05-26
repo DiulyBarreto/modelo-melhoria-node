@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Modelos de Melhoria</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+</head>
+
+<body ng-app="app">
+
+	<ng-menu></ng-menu>
+	<div class="container">
+		<ng-view></ng-view>
+	</div>
+
+	<script src="../../angular/angular.min.js"></script>
+	<script src="../../angular-route/angular-route.min.js"></script>
+
+	<script type="text/javascript" src="/js/routes/app-routes.js"></script>
+
+	<script type="text/javascript" src="/js/app.js"></script>
+
+	<!--controllers-->
+	<script type="text/javascript" src="/js/controllers/home-controller.js"></script>
+	<script type="text/javascript" src="/js/controllers/modelo-controller.js"></script>
+
+	<!--services-->
+	<script type="text/javascript" src="/js/services/modelo-service.js"></script>
+
+	<!--diretivas-->
+	<script type="text/javascript" src="/js/directives/ng-menu.js"></script>
+
+</body>
+
+</html>

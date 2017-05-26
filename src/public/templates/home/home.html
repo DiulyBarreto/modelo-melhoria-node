@@ -1,0 +1,35 @@
+<div ng-controller="modeloController as model">
+
+<h2>Bem-Vindo</h2>
+<table>
+    <tr>
+        <td>Sigla</td>
+        <td>Nome</td>
+        <td>Descrição</td>
+    </tr>
+</table>
+
+<div class="jumbotron">
+  <h1>Angular</h1>
+  <p>.............</p>
+
+  <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">$</div>
+      <input ng-model="model.campo" ng-value="model.campo" type="text" class="form-control" placeholder="Model">
+    </div>
+  </div>
+  <button type="submit" ng-click="model.salvar()" class="btn btn-primary">Add to list</button>
+</form>
+
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Link</a></p>
+
+  <ul class="list-group" ng-repeat="item in model.modelos track by $index">
+  <li class="list-group-item">{{item}}</li>
+</ul>
+
+</div>
+
+</div>
